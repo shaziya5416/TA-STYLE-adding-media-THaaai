@@ -1,0 +1,311 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*General*/
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+/*Part 1*/
+.part1{
+    background:linear-gradient(to right, rgba(0,0,255,0.5),rgba(61,129,22,0.5)) ,url("home-bg.jpg") ;
+}
+h2{
+	font-size: 30px;
+	color: white;
+	font-weight: 600;
+	margin-right: 100px;
+}
+.left1{
+
+}
+.left1 a{
+	font-size: 17px;
+	color: white;
+	font-weight: 600;
+	text-decoration: none;
+	margin-right: 40px;
+}
+.right1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin-right: 20px;
+}
+.bt1{
+	width: 130px;
+	height: 40px;
+	background-color: red;
+	border-radius: 20px;
+	border: 0px;
+}
+.bt1 a{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: 800;
+}
+.subpart1{
+	margin-top: 200px;
+	margin-bottom: 200px;
+
+}
+h1{
+	font-size: 52px;
+	color: white;
+	font-weight: 500;
+}
+.subpart1-1{
+	margin-top: 40px;
+	justify-content: flex-start;
+}
+.bt2{
+	background-color: rgba(0,0,0,0);
+	border: 2px solid white;
+}
+.subpart1-1-1{
+	margin-left: 30px;
+}
+.subpart1-1-1 p{
+	color: white;
+	font-weight: 700;
+}
+/*part2*/
+.part2-1{
+	width: 40%;
+	line-height: 1.5;
+}
+h3{
+	color: black;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+.part2-1 p{
+	color: gray;
+	margin-top: 20px;
+}
+.part2-2{
+	width: 25%;
+}
+.part2-3{
+	width: 25%;
+}
+.part2-3 img{
+	height: 400px;
+}
+.skill{
+	margin-top: 20px;
+}
+
+.skill hr{
+	border: 2px solid black;
+	margin-left: 20px;
+}
+.skill1 hr{
+	width: 85%;
+}
+.skill2 hr{
+	width: 90%;
+}
+.skill3 hr{
+	width: 75%;
+}
+.skill4 hr{
+	width: 70%;
+}
+/*part3*/
+.part3{
+	background-color: lightgray;
+}
+.part3 h3{
+	text-align: center;
+	padding-top: 40px;
+}
+.part3-2 img{
+	width: 35%;
+	height: 335.453px
+}
+.part3-2 article{
+	width: 65%;
+	height: 335.453px;
+	flex-direction: column;
+	background-color: white;
+	margin-right: 30px;
+	justify-content: flex-start;
+	align-items: center;
+}
+.part3-1{
+	margin-bottom: 30px;
+}
+.part3-2 article i{
+	color: red;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+h4{
+	font-size: 30px;
+	margin-left: 20px;
+}
+.part3-2 article p{
+	color:gray;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.part3-2 .bt3{
+	background-color: lightgrey;
+	margin-left: 20px;
+}
+.part4 h3{
+	text-align: center;
+	padding-top: 40px;
+}
+.part4-1 {
+	margin-top: 50px;
+}
+.part4-1 img{
+	width:22%;
+	margin-bottom: 30px;
+}
+.part5{
+	background:linear-gradient(to right,blue,green);
+	padding-bottom: 50px;
+}
+.part5 h3{
+	color: white;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.form{
+	width: 65%;
+}
+.map{
+	width: 30%;
+}
+.map iframe{
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+}
+.name{
+	width: 48%;
+	background-color: white;
+	margin-bottom: 15px;
+	height: 60px;
+	border-radius: 10px;
+}
+.requirements{
+	width: 100%;
+	background-color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 100px;
+	border-radius: 10px;
+}
+h5{
+	color: gray;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+.bt4{
+	color: white;
+	width: 180px;
+	font-weight: 700;
+}
+.budget i{
+	font-size: 20px;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+/*Footer*/
+footer{
+	background: linear-gradient(to right,#463f3f,#000000);
+	padding-bottom: 50px;
+}
+.footer-1{
+	align-items: flex-start;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.footer-1-1{
+	width:35%
+}
+.footer-1 h3{
+	color: white;
+	font-weight: 700;
+}
+.footer-1 p{
+	color: white;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.footer-1  li{
+	color: white;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.footer-2{
+	margin-top: 30px;
+	padding-right: 300px;
+}
+.footer-2 p{
+	color: white;
+	font-weight: 500;
+}
+.icon-f{
+	margin-left: 50px;
+}
+.icon-f a{
+	color: white;
+	margin-left:  20px; ;
+}
